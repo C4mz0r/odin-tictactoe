@@ -1,0 +1,43 @@
+#board span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+}
+
+#cell_0, #cell_1, #cell_2 {
+    border-bottom: 3px solid blue;
+}
+
+#cell_3, #cell_4, #cell_5 {
+    border-bottom: 3px solid blue;
+}
+
+#cell_0, #cell_3, #cell_6 {
+    border-right: 3px solid blue;
+}
+
+#cell_1, #cell_4, #cell_7 {
+    border-right: 3px solid blue;
+}
+
+#board {
+    width: 315px;
+}
+
+.row {
+    clear: both;
+}
+
+.gameover {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 5px solid blue;
+}
